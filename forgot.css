@@ -1,0 +1,80 @@
+body {
+
+    font-family: "Poppins", sans-serif;
+    
+    /* margin:9%; */
+    background:#174873
+  }
+
+  .main-container {
+    text-align: center;
+    display: flex;
+  }
+
+.main-container .image,
+.main-container .container {
+  display: inline-block;
+  align-items: center;
+  /* You can set width, margin, padding, etc. as needed */
+}
+  
+  .container {
+    width: 400px;
+    background: white;
+    /* padding-bottom: 386px; */
+    margin-top: 100px;
+  
+  }
+  
+  h1 {
+    text-align: center;
+    /* padding-top: 40px; */
+  }
+  
+  form {
+    margin-top: 100px;
+  
+  }
+
+  form input[type="submit"] {
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    background: #5372F0;
+    transition: all 0.3s ease;
+   
+  }
+   
+form input {
+    width: 80%;
+    height: 100%;
+    outline: none;
+    /* padding: 0 45px; */
+    font-size: 18px;
+    background:none;
+    caret-color: #5372F0;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 3px;
+    transition: all 0.20s ease;
+    padding-left:0%;
+    padding-right:0%;
+  
+   
+    
+  
+}
+
+
+.image
+{
+width: 0%;
+padding-right: 1000px;
+display:flex;
+margin-top:100px;
+align-items: center;
+
+}
+
